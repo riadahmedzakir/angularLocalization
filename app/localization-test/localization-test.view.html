@@ -1,0 +1,10 @@
+<div ng-controller="localizationTestController as vm">
+    <p>
+        <span style="cursor: pointer;" ng-click="vm.changeLanguage('en-US')">English</span>
+        <span>|</span>
+        <span style="cursor: pointer;" ng-click="vm.changeLanguage('de-DE')">German</span>
+        <span>|</span>
+        <span style="cursor: pointer;" ng-click="vm.changeLanguage('fr-FR')">French</span>
+    </p>
+    <h2>{{'TITLE' | translate}}</h2>
+</div>
